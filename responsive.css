@@ -1,0 +1,33 @@
+@media (min-width : 1200px){
+    .container{
+        padding: 40px 50px;
+    }
+    .contact {
+        background-position: left center;
+    }
+}
+
+@media (max-width : 768px){
+    img{
+        width: 100%;
+    }
+    .container{
+        display: block;
+        padding: 40px 0;
+    }
+    .width{
+        width: 80%;
+    }
+
+    .heading {
+        margin: 30px 0;
+    }
+    .item{
+        margin: 20px auto;
+        width: 60%;
+    }
+
+    form{
+        width: 100%;
+    }
+}
