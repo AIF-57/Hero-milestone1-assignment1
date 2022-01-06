@@ -59,7 +59,7 @@ img{
 }
 .item{
     width: 25%;
-    height: 320px;
+    height: auto;
     margin: 0 auto;
     border-radius: 8px;
     padding: 10px 20px;
