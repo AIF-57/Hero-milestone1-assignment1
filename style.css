@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Noto Serif', serif;
+    color: #2f3542;
+}
+img{
+    width: 100%;
+}
+
+
+.width{
+    width: 40%;
+    margin: auto;
+} 
+.container{
+    display: flex;
+    padding: 60px 0;
+}
+.primary-clr{
+    color:  #227093;
+}
+.paraStyle{
+    margin: 30px 0;
+}
+.btnStyle{
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    background-color: #f0932b;
+    color: #ffffff;
+    font-weight: 600;
+}
+.radius{
+    border-radius: 10px;
+}
+
+
+
+/* header */
+.border{
+    border: 3px solid #f0932b;
+    border-radius: 2px;
+}
+.htagMargin{
+    margin-left: 12px;
+}
+.heading{
+    display: flex;
+}
+
+
+/* plan */
+.plan{
+    text-align: center;
+}
+.item{
+    width: 25%;
+    height: 320px;
+    margin: 0 auto;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+.itm-bg1{
+    background-color: #f8efbabd;
+}
+.itm-bg2{
+    background-color: #fea37fbd;
+}
+.itm-bg3{
+    background-color: #eccb68b2;
+}
+.itmImg{
+    width: 60%;
+    margin: 10px auto;
+}
+.itmDetails h4{
+    margin: 20px 0;
+    font-weight: 900;
+}
+.itmDetails p{
+    font-size: 14px;
+    text-align: justify;
+}
+
+
+/* experience */
+.experience-img{
+    text-align: center;
+}
+.experience-img img{
+    width: 70%;
+}
+
+
+/* contact */
+.contact{
+    background: url(../images/shape-6.png);
+    background-position: left top;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+form{
+    width: 90%;
+    background-color: #227093;
+    padding: 20px;
+    color: #fff;
+    border-radius: 8px;
+    margin: 40px 0 0;
+}
+form button{
+    width: 90%;
+    display: block;
+    margin: 20px auto 0;
+}
+.flex{
+    display: flex;
+    margin: 20px 5%;
+}
+.flex h4{
+    width: 35%;
+}
+.flex input{
+    width: 65%;
+    padding: 8px ;
+    border: none;
+    border-radius: 5px;
+}
+.message{
+    margin : 0 16px;
+}
+.message input{
+    display: block;
+    width: 100%;
+    height: 100px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+/* footer */
+footer{
+    background-color: #2d3436;
+    padding: 10px 0;
+    color: #f0932b;
+    text-align: center;
+}
+footer p{
+    color: #fff;
+    font-size: 14px;
+}
